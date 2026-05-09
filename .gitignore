@@ -1,0 +1,33 @@
+# Laravel / PHP
+/vendor/
+.env
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+/.idea/
+/.vscode/
+.DS_Store
+Thumbs.db
+
+# Angular / Node
+/node_modules/
+/dist/
+/tmp
+/out-tsc
+/*.js.map
+/*.css.map
+/.angular/
+/.ng_build
+/.ng_pkg_build
+/.ng_helpers
+/etc/
+
+# Archivos de entorno
+.env.*
+!.env.example
+
+# Logs
+*.log
+storage/logs/*.log
